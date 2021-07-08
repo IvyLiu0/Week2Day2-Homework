@@ -161,6 +161,48 @@ footer #nondisclaimer .social .fa-instagram {
     background-size: 1500px;
 }
 
+table{
+    width: 1000px;
+    margin: 4em auto o auto;
+}
+
+caption{
+    background: #852b1b;
+    height: 40px;
+    color: #fff;
+    font-size: 1,3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+thead{
+    background: #bde1ff;
+}
+
+tbody{
+    background: #eeffe6;
+    text-align: center;
+}
+
+td,th{
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #852b1b;
+}
+
+th:first-child{
+    width: 125px;
+    height: 50px;
+    background: #4977d1;
+    color: #fff;
+}
+
+td:first-child{
+    font-weight: bold;
+    background: #bde1ff;
+}
+
 /*Page 3 Styling*/
 #contact header{
     background: no-repeat lightgrey url(images/cliff_rock.jpeg);
