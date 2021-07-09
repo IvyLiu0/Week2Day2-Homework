@@ -60,7 +60,7 @@ header{
 }
 
 /*main*/
-h2{
+h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #9ed034;
     width: 1200px;
@@ -69,7 +69,7 @@ h2{
     padding-top: 5%;
 }
 
-h3{
+h2{
     font-family: Arial, Helvetica, sans-serif;
     width: 1200px;
     padding-left: 5%;
@@ -79,8 +79,8 @@ h3{
 p{
     font-family: Arial, Helvetica, sans-serif;
     width: 1200px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 2% 5% 1% 5%;
+
 }
 
 
@@ -97,7 +97,7 @@ section #partners{
 section #partners .partner{
     display: inline-block;
     margin: 0 0.75em;
-    padding: 1.3em 1.5em;
+    padding: 1.3em 1.3em;
     background-color: #fff;
     border-radius: 50%;
 }
@@ -161,9 +161,10 @@ footer #nondisclaimer .social .fa-instagram {
     background-size: 1500px;
 }
 
+
 table{
     width: 1000px;
-    margin: 4em auto o auto;
+    margin: 5% 0 5% 10%;
 }
 
 caption{
@@ -207,4 +208,74 @@ td:first-child{
 #contact header{
     background: no-repeat lightgrey url(images/cliff_rock.jpeg);
     background-size: 1500px;
+}
+
+span:first-child{
+    font-weight: bold;
+}
+
+.contactinfo{
+    padding: 0 5% 1% 5%;
+}
+
+.phone, .email{
+   margin: 1% 0;
+}
+
+form{
+    margin: 0 5% 5% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    border: 1px solid #9ed034;
+    width: 1200px;
+}
+
+legend{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4977d1;
+}
+
+.textbox label, .commentbox, .selectmenu{
+    display: block;
+    margin: 15px 0 0 0;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.radios label, .selectmenu label{
+    font-weight: bold;
+}
+
+input{
+    width: 600px;
+    margin-left: 20px;
+}
+
+input[type="radio"]{
+    width: 25px;
+    display: inline;
+}
+
+textarea{
+    width: 600px;
+    height: 200px;
+    display: block;
+    
+}
+
+.radios{
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+
+input[type="submit"]{
+    margin: 15px 0 15px 520px;
+    width: 100px;
+    height: 30px;
+    background-color: #4977d1;
+    color: #fff;
 }
